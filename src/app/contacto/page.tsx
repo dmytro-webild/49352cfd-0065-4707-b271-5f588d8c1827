@@ -57,11 +57,10 @@ export default function LandingPage() {
       title="Términos y condiciones"
       sections={[
         {
-          heading: "Uso de datos",          body: "Protegemos tu información personal de acuerdo con la ley vigente."
+          heading: "Uso de datos",          content: [{text: "Protegemos tu información personal de acuerdo con la ley vigente."}]
         },
         {
-          heading: "Política de Privacidad",          list: [
-              "No compartimos datos con terceros.",              "Uso exclusivo para fines inmobiliarios."],
+          heading: "Política de Privacidad",          content: [{text: "No compartimos datos con terceros."}, {text: "Uso exclusivo para fines inmobiliarios."}]
         },
       ]}
     />
