@@ -11,8 +11,8 @@ import { Public_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'HDH Inmobiliaria | Córdoba y Carlos Paz',
-  description: 'Expertos en operaciones inmobiliarias. Más que una inmobiliaria, tu equipo de confianza en Córdoba.',
+  title: 'Contacto | HDH Inmobiliaria',
+  description: 'Contacta con HDH Inmobiliaria en Córdoba para gestionar tu propiedad, venta o alquiler.',
   openGraph: {
     "title": "HDH Inmobiliaria | Tu equipo de confianza",
     "description": "Resolución de imposibles en operaciones inmobiliarias.",
