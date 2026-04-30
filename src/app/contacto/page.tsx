@@ -58,11 +58,11 @@ export default function LandingPage() {
       sections={[
         {
           heading: "Uso de datos",          content: {
-            type: "paragraph",            text: "Protegemos tu información personal de acuerdo con la ley vigente."},
+            text: "Protegemos tu información personal de acuerdo con la ley vigente."},
         },
         {
           heading: "Política de Privacidad",          content: {
-            type: "list",            items: [
+            items: [
               "No compartimos datos con terceros.",              "Uso exclusivo para fines inmobiliarios."],
           },
         },
