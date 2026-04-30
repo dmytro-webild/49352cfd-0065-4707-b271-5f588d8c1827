@@ -26,21 +26,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Inicio",
-          id: "/",
-        },
+          name: "Inicio",          id: "/"},
         {
-          name: "Propiedades",
-          id: "/propiedades",
-        },
+          name: "Propiedades",          id: "/propiedades"},
         {
-          name: "Nosotros",
-          id: "/nosotros",
-        },
+          name: "Nosotros",          id: "/nosotros"},
         {
-          name: "Contacto",
-          id: "/contacto",
-        },
+          name: "Contacto",          id: "/contacto"},
       ]}
       brandName="HDH Inmobiliaria"
     />
@@ -50,14 +42,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       text="Tu próximo paso empieza aquí. Hablemos de cómo podemos ayudarte."
       buttons={[
         {
-          text: "WhatsApp Inmediato",
-          href: "https://wa.me/5493510000000",
-        },
+          text: "WhatsApp Inmediato",          href: "https://wa.me/5493510000000"},
       ]}
     />
   </div>
@@ -68,20 +57,13 @@ export default function LandingPage() {
       title="Términos y condiciones"
       sections={[
         {
-          heading: "Uso de datos",
-          content: {
-            type: "paragraph",
-            text: "Protegemos tu información personal de acuerdo con la ley vigente.",
-          },
+          heading: "Uso de datos",          content: {
+            text: "Protegemos tu información personal de acuerdo con la ley vigente."},
         },
         {
-          heading: "Política de Privacidad",
-          content: {
-            type: "list",
+          heading: "Política de Privacidad",          content: {
             items: [
-              "No compartimos datos con terceros.",
-              "Uso exclusivo para fines inmobiliarios.",
-            ],
+              "No compartimos datos con terceros.",              "Uso exclusivo para fines inmobiliarios."],
           },
         },
       ]}
@@ -93,38 +75,25 @@ export default function LandingPage() {
       logoText="HDH Inmobiliaria"
       columns={[
         {
-          title: "HDH",
-          items: [
+          title: "HDH",          items: [
             {
-              label: "Nosotros",
-              href: "/nosotros",
-            },
+              label: "Nosotros",              href: "/nosotros"},
             {
-              label: "Contacto",
-              href: "/contacto",
-            },
+              label: "Contacto",              href: "/contacto"},
           ],
         },
         {
-          title: "Servicios",
-          items: [
+          title: "Servicios",          items: [
             {
-              label: "Ventas",
-              href: "/propiedades",
-            },
+              label: "Ventas",              href: "/propiedades"},
             {
-              label: "Administración",
-              href: "/propiedades",
-            },
+              label: "Administración",              href: "/propiedades"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacidad",
-              href: "#",
-            },
+              label: "Privacidad",              href: "#"},
           ],
         },
       ]}
